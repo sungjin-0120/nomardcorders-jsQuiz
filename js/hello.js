@@ -1,3 +1,3 @@
 const h1 = document.querySelector("h1");
 
-h1.innerText = "Fuck you!";
+h1.innerText = "ahahahahhahahahahahahahahahah";
