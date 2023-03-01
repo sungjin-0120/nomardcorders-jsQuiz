@@ -4,6 +4,7 @@ function getTime() {
   const now = new Date();
   const christmas = new Date("December 25, 2023 00:00:00");
   const date = christmas.getTime() - now.getTime();
+  //getTime()은 1970, 1.1,00:00:00 부터 현재까지 걸린 시간을 초로 환산 해주는 함수이다
   const day = String(Math.floor(date / (24 * 60 * 60 * 1000) + 1)).padStart(
     2,
     "0"
